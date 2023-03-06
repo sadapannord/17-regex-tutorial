@@ -1,10 +1,10 @@
-# Title (replace with your title)
+# How to verify if text is an Email
 
-Introductory paragraph (replace this with your text)
+This article is an explanation of the regular expression (also known as regex) commonly used to determine if a string contains an email. This article contains a detailed explanation of each component of the regex.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+The article details each component of the /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/ regex, which when implemented determines if text contains all the elements that an email is comprised of.
 
 ## Table of Contents
 
@@ -20,11 +20,13 @@ Briefly summarize the regex you will be describing and what you will explain. In
 - [Back-references](#back-references)
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
-## Regex Components
-
 ### Anchors
 
+This regex contains "anchors" which search the beginning and end of string. The ^ character searches the beginning, and the $ searches for the end. In our regex, the beginning anchor is searching for a [grouping](#grouping-capturing) of characters preceding the @ symbol, and the ending anchor is searching for a grouping that follow a period (.).
+
 ### Quantifiers
+
+A quantifier indicates the number of characters or expressions to match.
 
 ### OR Operator
 
