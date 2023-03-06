@@ -10,9 +10,7 @@ The article details each component of the /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z
 
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
-- [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
-- [Flags](#flags)
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
@@ -26,15 +24,14 @@ This regex contains "anchors" which search the beginning and end of string. The 
 
 ### Quantifiers
 
-A quantifier indicates the number of characters or expressions to match. In this expression we are using the + sign quantifier. It is searching for the [characters](#character-classes).
-
-### OR Operator
+A quantifier indicates the number of characters or expressions to match. In this expression we are using the + and {} quantifiers. The + is searching for the [characters](#character-classes) in the first and second groupings, while the {} is searching for between 2 and 6 characters in the third grouping.
 
 ### Character Classes
 
-### Flags
+This expression contains 3 groupings of character classes. In the first grouping we are searching for the letters "a" through "z", the numbers 0 through 9, and the characters (\_.-). The second grouping is searching for numbers 0 through 9, letters "a" through "z", and the characters (.-). The third grouping is searching for letters "a" through "z". 
 
 ### Grouping and Capturing
+
 
 ### Bracket Expressions
 
