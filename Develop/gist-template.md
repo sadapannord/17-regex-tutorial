@@ -22,11 +22,11 @@ The article details each component of the /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z
 
 ### Anchors
 
-This regex contains "anchors" which search the beginning and end of string. The ^ character searches the beginning, and the $ searches for the end. In our regex, the beginning anchor is searching for a [grouping](#grouping-capturing) of characters preceding the @ symbol, and the ending anchor is searching for a grouping that follow a period (.).
+This regex contains "anchors" which search the beginning and end of string. The ^ character searches the beginning, and the $ searches for the end. In our regex, the beginning anchor is searching for a [grouping](#grouping-capturing) of characters preceding the @ symbol, and the ending anchor is searching for a grouping that follows a period (.).
 
 ### Quantifiers
 
-A quantifier indicates the number of characters or expressions to match.
+A quantifier indicates the number of characters or expressions to match. In this expression we are using the + sign quantifier. It is searching for the [characters](#character-classes).
 
 ### OR Operator
 
