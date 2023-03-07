@@ -28,16 +28,19 @@ A quantifier indicates the number of characters or expressions to match. In this
 
 ### Character Classes
 
-This expression contains 3 groupings of character classes. In the first grouping we are searching for the letters "a" through "z", the numbers 0 through 9, and the characters (\_.-). The second grouping is searching for numbers 0 through 9, letters "a" through "z", and the characters (.-). The third grouping is searching for letters "a" through "z". 
+This expression contains 3 groupings of character classes, enclosed in square brackets []. We are also searching for any digit between 0 and 9 in the snipped [\da-z\.-] following the @ symbol.
 
 ### Grouping and Capturing
 
+A grouping is a way to use multiple characters as a single object, this is created by placing the characters in parenthesis (). This expression contains 3 groupings. The first is preceding the @ symbol, the second directly afterwards, and the third following a period. A group that is "captured" contains all the characters that were matched.
 
 ### Bracket Expressions
 
+Bracket expressions are used to determine what characters we are searching for. In the first grouping we are searching for the letters "a" through "z", the numbers 0 through 9, and the characters (\_.-). The second grouping is searching for numbers 0 through 9, letters "a" through "z", and the characters (.-). The third grouping is searching for letters "a" through "z".
+
 ### Greedy and Lazy Match
 
-### Boundaries
+This regex contains greedy operators, meaning they will expand the match as far as they can through the provided input.
 
 ### Back-references
 
