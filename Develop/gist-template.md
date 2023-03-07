@@ -42,10 +42,6 @@ Bracket expressions are used to determine what characters we are searching for. 
 
 This regex contains greedy operators, meaning they will expand the match as far as they can through the provided input.
 
-### Back-references
-
-### Look-ahead and Look-behind
-
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+If you would like to view my GitHub profile please visit https://github.com/sadapannord
